@@ -16,9 +16,12 @@ body {
   background: #c9ced3;
 }
 
+h1 {
+  margin: 1rem auto;
+}
 .container {
   width: 480px;
-  height: 630px;
+  height: 680px;
   background: white;
   display: flex;
   flex-direction: column;
@@ -91,4 +94,14 @@ button:hover {
 
 button:focus {
   outline: none;
+}
+
+.message-container {
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 90%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  color: black;
 }
